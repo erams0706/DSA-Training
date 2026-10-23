@@ -3,7 +3,7 @@ class Solution {
         int n =nums.length;
         int sum=n*(n+1)/2;
         int current_sum=0;
-        for(int i=0;i<nums.length;i++){
+        for(int i=0;i<n;i++){
             current_sum=current_sum + nums[i];
         }
         int missingNumber= sum-current_sum;
